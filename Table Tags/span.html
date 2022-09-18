@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Row Span and Col Span Tags</title>
+    </head>
+    <body>
+        <h1 align="center"><font color="orange">Row Span and Col Span Tags</font></h1>
+        <table border="2" align="center" height="250" width="400">
+            <thead align="center">
+                <th>Product</th>
+                <th>Price</th>
+                <th>Color</th>
+            </tr>
+            <tr align="center">
+                <td >Samsung Flip 4</td>
+                <td>89,990</td>
+                <td>Rose Gold</td>
+            </tr>
+            <tr align="center">
+                <td>Oppo Reno8 pro</td>
+                <td>76,999</td>
+                <td>Glass Green</td>
+            </tr>
+            <tr align="center">
+                <td>Realme 6 pro</td>
+                <td>19,999</td>
+                <td>Blue </td>
+            </tr>
+        </table><hr>
+        <table border="2" align="center" height="250" width="400">
+            <thead align="center">
+                <th>Product</th>
+                <th>Price</th>
+                <th>Color</th>
+            </tr>
+            <tr align="center">
+                <td colspan="2">Samsung Flip 4</td>
+                <td>Rose Gold</td>
+            </tr>
+            <tr align="center">
+                <td rowspan="2">Oppo Reno8 pro</td>
+                <td rowspan="2">76,999</td>
+                <td>Glass Green</td>
+            </tr>
+            <tr align="center">
+                <td>Blue </td>
+            </tr>
+        </table><hr>
+        <table border="2" align="center" height="250" width="400">
+            <thead align="center">
+                <th colspan="3">Product</th>
+                <!-- <th>Price</th>
+                <th>Color</th> -->
+            </tr>
+            <tr align="center">
+                <td rowspan="2">Samsung Flip 4</td>
+                <td>89,990</td>
+                <td>Rose Gold</td>
+            </tr>
+            <tr align="center">
+                <!-- <td>Oppo Reno8 pro</td> -->
+                <!-- <td>76,999</td> -->
+                <td colspan="2">Glass Green</td>
+            </tr>
+            <tr align="center">
+                <td>Realme 6 pro</td>
+                <td>19,999</td>
+                <td>Blue </td>
+            </tr>
+        </table><hr>
+    </body>
+</html>
