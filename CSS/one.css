@@ -1,0 +1,33 @@
+h1{
+    background-color: black;
+    color:azure;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+p{
+    background-color: black;
+    color:white;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+body{
+    background-color: darkolivegreen;
+}
+#start {
+    /* This is id attribute */
+    background-color:darkturquoise;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    color:black;
+    text-align: center;
+}
+.stop{
+    /* This is Class Attribute */
+    background-color: blue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color:beige
+}
